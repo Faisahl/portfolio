@@ -1,10 +1,10 @@
 :root {
-  --main-color: #A084E8;
-  --secondary-color: #40128B;
+  --main-color: #2A004E;
+  --secondary-color: #A084E8;
 }
 
 body {
-  background-color: black;
+  background-color: var(--main-color);
   color: white;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -44,8 +44,38 @@ ul {
 }
 
 
-/* THEME TOGGLE */
+/* NAME */
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  overflow: hidden;
+  gap: 3px;
+}
 
+.names {
+  color: var(--secondary-color);
+  display: inline-block;
+  width: 85px;
+  font-size: 1.4rem;
+  text-align: right;
+  white-space: nowrap;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.hidden { 
+  opacity: 0;
+}
+
+.last-name {
+  display: inline-block;
+}
+/* END NAME */
+
+
+/* THEME TOGGLE */
 .toggle-theme {
   display: flex;
   position: absolute;
@@ -57,7 +87,8 @@ ul {
   padding: 15px;
   border-radius: 100%;
   cursor: pointer;
-  background-color: var(--main-color);
+  background-color: transparent;
+  border: 3px dashed var(--secondary-color);
 }
 
 .toggle-theme:hover {
@@ -80,42 +111,9 @@ ul {
 .icon-hidden {
   display: none;
 }
-
-/* NAME */
-
-.name-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
-  overflow: hidden;
-  
-}
-
-.names {
-  color: var(--main-color);
-  display: inline-block;
-  width: 85px;
-  font-size: 1.4rem;
-  text-align: right;
-  white-space: nowrap;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
-}
-
-.hidden { 
-  opacity: 0;
-}
-
-.last-name {
-  display: inline-block;
-}
-
-/* END NAME */
-
+/* END THEME TOGGLE */
 
 /* SOCIALS */
-
 .socials {
   display: flex;
   flex-direction: row;
@@ -131,5 +129,4 @@ ul {
 .socials li:hover {
   color: var(--main-color);
 }
-
 /* END SOCIALS */

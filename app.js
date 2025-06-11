@@ -2,6 +2,7 @@ const words = ["فيصل", "Фейсал", "파이살", "फैसल", "菲萨�
 const box = document.querySelector(".names");
 const sun = document.querySelector(".sun-icon");
 const moon = document.querySelector(".moon-icon");
+console.log('Hello, World ;)');
 
 let i = 0;
 
