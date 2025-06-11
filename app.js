@@ -20,6 +20,6 @@ toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 
   const isDark = document.body.classList.contains("dark-mode");
-  sun.classList.toggle("icon-hidden", !isDark);
-  moon.classList.toggle("icon-hidden", isDark);
+  sun.classList.toggle("icon-hidden", isDark);
+  moon.classList.toggle("icon-hidden", !isDark);
 });

@@ -4,14 +4,14 @@
 }
 
 body {
-  background-color: fff;
-  color: black;
+  background-color: black;
+  color: white;
   transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark-mode {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 a {
