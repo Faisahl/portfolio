@@ -54,7 +54,7 @@ ul {
   margin-right: 3rem;
   margin-bottom: 1rem;
   border: none;
-  padding: 12px;
+  padding: 15px;
   border-radius: 100%;
   cursor: pointer;
   background-color: var(--main-color);
@@ -66,6 +66,10 @@ ul {
 
 .theme-button span {
   width: 25px;
+}
+
+.theme-button svg {
+  display: block;
 }
 
 .icon {
@@ -129,13 +133,3 @@ ul {
 }
 
 /* END SOCIALS */
-
-
-
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: white;
-  }
-}
