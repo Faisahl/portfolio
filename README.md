@@ -1,5 +1,3 @@
----
-
 ## 👨‍💻 About Me
 
 I'm a passionate and versatile **Full Stack Web Developer**, **QA Automation Engineer**, and **Business Analyst**. With experience across the software development lifecycle, I bring a holistic approach to delivering high-quality, scalable, and practical digital solutions.
@@ -11,5 +9,3 @@ I'm a passionate and versatile **Full Stack Web Developer**, **QA Automation Eng
   Ensuring quality through automated UI and API testing frameworks.
 - **Business Analysis**  
   Translating business goals into actionable technical requirements.
-
----
