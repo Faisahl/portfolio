@@ -3,7 +3,11 @@
   --secondary-color: #A084E8;
 }
 
-body {
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: var(--main-color);
   color: white;
   transition: background-color 0.3s, color 0.3s;
@@ -81,7 +85,7 @@ ul {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 2rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   border: none;
   padding: 15px;
